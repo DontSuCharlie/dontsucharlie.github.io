@@ -1,0 +1,4 @@
+/*Sets everything to 0 so we can start with a nice, clean beginning*/
+
+p, h1, h2, h3, h4, h5, h6{ margin-top: 0.5%; margin-bottom: 0.5%}
+a:link{text-decoration: none}

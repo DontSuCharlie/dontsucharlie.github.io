@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Home Web Page",
+	"version":"1.0", 
+	"description": "Shortcut to my homepage",
+	"permissions": 
+	[
+		"tabs"
+	],
+	"browser_action":
+	{
+		"default_icon": "newIcon.png",
+		"default_popup": "popup.html"
+	}
+}
+

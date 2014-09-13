@@ -1,0 +1,125 @@
+Home Page
+
+
+
+Appears on top of every page:
+
+Home| Projects| Courses| Recommended Miscellaneous| Daily Thoughts
+
+Clicking on these buttons results in opening of the thingies that list stuff
+
+Home = links back to home page
+Projects = List projects by # from most current to least current. Every X amount of projects will be collected into a bundle called: Generation A, which will be linked.
+Courses = current active courses, thoughts, and display of shiny certificates because why not
+Recommended Miscallaneous = Quotes, Films, Books, Events
+
+Videos:
+Calculus by Gilbert Strang
+
+Home Page
+
+Thoughts
+"Enter your e-mail"
+[                         ]
+"If you're (specifically, your e-mail is) on my contact list in my personal e-mail, you will automatically receive access. You'll also receive a cookie. Otherwise, you'll have to request access."
+
+"Note: I don't accept access requests unless I personally know you! Besides, my daily thoughts are simply me ranting/rambling about my daily life. How boring is that when you have free access to a treasure trove of projects, how to make them, and recommendations on good MOOC courses and books?"
+
+
+Projects
+{
+	Current Project
+	Project #5: MHacks IV
+	Project #4: VOSS
+	Project #3: Legacy Dungeon
+	Project #2: Subterranean Lizard Retriever
+	Project #1: Rainbow LED Strips!
+	Attributes of Projects:
+	Current Project
+	Project #
+	[Status]
+	Date Started
+	Date Completed
+	
+	
+}
+Recommended Books
+{
+	o CS
+		The Little LISPer - teaches recursive programming in only 68 pages. Very recommended. (http://javascript.crockford.com/little.html)
+		The C Programming Language - origin of all "Hello World" examples. Literally _the_ manual of C.
+		Hackers and Painters - basically the book I follow
+	o Communication
+		How to Win Friends and Influence People by Dale Carnegie	http://www.abebooks.com/servlet/SearchResults?bx=on&sts=t&ds=30&bi=0&an=carnegie&kn=1938+OR+1939+OR+1940+OR+1941+OR+1942+OR+1943+OR+1944+OR+1945+OR+1946+OR+1947+OR+1948&tn=influence+friends&sortby=2
+	o Mathematics
+		Calculus Made Easy by Silvanus Thompson
+		Calculus by Gilbert Strang
+	o Animation
+		The Illusion of Life (check vimeo for summary)
+			The Rules on Animating (Turbosquid.com)
+}
+Websites
+{
+	paulgraham.com - essays. read. now.
+	crockford.com - insight on javascript
+}
+
+When investing in building a game website, I would say that the cost is extremely minimal compared to the benefits. Your website will (assuming it's good) make your game look more professional, and will open another source of buying the game. The cost of a website can be estimated as follows:
+
+$(cost of server provider) * (monthly fee) * 12mo/year * 10 years
+
+At _most_, the website would remain open for 10 years. I was actually considering the costs of my personal website - if I were to live to 100, then I would only need to pay for 82 years worth of server time. However, by 100, most likely I won't even be hosting my website anymore - there's no purpose. I might work until maybe 70 at most, which means only 52 years worth of server time. This is assuming I do live that long.
+
+So, only 52 years of paying for a personal website left...
+
+It should take about ~120 sales of your game to cover the website costs. 
+
+This also goes back to something kind of sad. We're looking at the lifespan of a website, the availability of your game, and your own lifespan. It means absolutely nothing is permanent. Nothing, not even a website
+
+Courses
+{
+	Current
+		
+	Completed (+certificate)
+		UCSDx//Human Computer Interaction
+		LouvreX//Paradigms of Programming
+		MITx//Circuits and Electronics
+		
+	Completed (-audit)
+		UWx//Hardware/Software Interface
+		StanfordX//Cryptography I
+		PrincetonX//Algorithms I
+		MITx//Physics 101
+		MITx//Electromagnetism
+		MITx//Solid State Chemistry
+		DelphiX//Aerodynamics
+		UTx//Linear Algebra
+		
+}
+
+Webpage Thanks
+{
+	http://bavotasan.com/2011/circular-images-with-css3/ - circular image
+}
+
+Webpage Issues
+{
+	Drop-down menu: if zoomed too closely, the words bundle up, preventing the drop down menu from being accessible
+	Background: Drop-downs cause the background to displace, very uncool
+	Have not tested other web-browser accessibility
+	Have not totally checked for graceful degradation
+	
+	<!DOCTYPE html> gives the spacing I want for my menu bar; however, disables my clickable cards in projects. I want that spacing!
+	Zooming in too much will remove the bottom part of the card
+	The cards are really cute when smaller
+	Need to find a way to have the menu on every page w/o copying and pasting, bc that'll make it inefficient to update. Currently 2 files have it- index.html and projects.html.
+
+	<br> breaks custom highlight color
+}
+
+Webpage Fixes
+{
+	Highlight color works on Firefox - you have to explicitly include ::-moz-selection{color: #; background: #}
+	Fonts are transferrable - @font-face provides fonts from the server
+	Need to make background-image center the image when cropping so I can show jirachi - background-size: 100% 100% and background-position: center center
+}
