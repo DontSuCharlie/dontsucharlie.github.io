@@ -9,7 +9,7 @@ function changeColor(myClass)
 		var currentIndex;
 		for(var index = 0; index < myButtons.length; index++)//decolor all other buttons
 		{
-			if(myButtons[index] != myClass && $(myButtons[index]).css('background-color') != originalColor)//second boolean to prevent hover color from defined as original
+			if(myButtons[index] != myClass)//second boolean to prevent hover color from defined as original
 			{
 				$(myButtons[index]).css('background-color', originalColor);
 				$(myButtons[index]).animate({fontSize: '100%'});
