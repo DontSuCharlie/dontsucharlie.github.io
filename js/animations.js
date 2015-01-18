@@ -1,3 +1,7 @@
+function loadPage(myPage)
+{
+}
+
 /*This is for changing the color of the background when clicking on the menu buttons*/
 var myButtons = [".one",".two",".three",".four"];//used for tracking other buttons
 var myPages = ["about.html","courses.html","projects.html","contact.html"]
@@ -9,14 +13,15 @@ function changeColor(myClass)
 		var currentIndex;
 		for(var index = 0; index < myButtons.length; index++)//decolor all other buttons
 		{
-			if(myButtons[index] != myClass)//second boolean to prevent hover color from defined as original
+			if(myButtons[index] != myClass && $(myButtons[index]).css('background-color') != originalColor)//second boolean to prevent hover color from defined as original
 			{
 				$(myButtons[index]).css('background-color', originalColor);
 				$(myButtons[index]).animate({fontSize: '100%'});
 			}
-			else{
-				currentIndex = index;
-				console.log(currentIndex);				
+			else
+			{
+				if(myButtons[index] == myClass)
+					currentIndex = index;
 			}
 		}
 		if(!hoverColor)//if hoverColor hasn't been defined before, define it here and never again
