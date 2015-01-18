@@ -17,7 +17,7 @@ html{background-color: #000000; color: #FFFFFF; -webkit-animation: changeColor 5
 animation: changeColor 5s; }
 h1,h2,h3{font-family: CODE; text-align: center;}
 h1{font-size: 450%;}
-h2{font-size: 235%;}
+h2{font-size: 255%;}
 h3{font-size: 150%;}
 h4{font-family: CODE;font-size: 150%;}
 
@@ -48,25 +48,35 @@ nav ul li{/*the list content themselves*/
 	.five:hover{background: #19E0FF;}
 	.six:hover{background: #CD59F7;}
 
-	#about{display:none;
-		background-color: rgba(240,240,240,1);
-	}
-	#courses{display:none;}
-	#projects{display:none;}
-	#contact{display: none;}
+	#about, #courses, #projects, #contact{padding: 3em 3em;}
 
 /*Content Pages*/
 /*can't use commas because defaults to normal h2/h3 -.-*/
-#content h1{text-align: left}
-#content h2{text-align: left}
-#content h3{text-align: left}
+#content h1{text-align: left;}
+#content h2{text-align: left;}
+#content h3{text-align: left; margin-bottom: 0.5em;}
+	#content #about h3{background-color: #4F9DE2;}
+	#content #courses h3{background-color: #39D486;}
+	#content #projects h3{background-color: #E8BD46;}
+	#content #contact h3{background-color: #D13D71;}
+#content h4{background-color: #FFEF45; margin-bottom: 0.5em}
+	#content #about h4{background-color: #4F9DE2;}
+	#content #courses h4{background-color: #39D486;}
+	#content #projects h4{background-color: #E8BD46;}
+	#content #contact h4{background-color: #D13D71;}
+#content h5{background-color: #7BFF00}
+#content h6{background-color: #7BFF00}
+
 
 #content{
+	/*padding: 30px 30px;	*/
+	margin: 0 auto;
 	color: black;
-	background: -webkit-linear-gradient(rgba(255,255,255,0.9), rgba(235,235,235,1)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(rgba(255,255,255,0.9), rgba(235,235,235,1)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(rgba(255,255,255,0.9), rgba(235,235,235,1)); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(rgba(255,255,255,0.9), rgba(235,235,235,1)); /* Standard syntax */
+	display: table;
+	background: -webkit-linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,1)); /* Standard syntax */
 }
 
 input{margin: 0 auto; height: 2em; width: 16em; display: block;}

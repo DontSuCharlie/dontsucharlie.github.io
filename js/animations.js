@@ -39,10 +39,15 @@ function changeColor(myClass)
 		{
 			$('html').animate({backgroundColor: hoverColor},{duration: 600})
 			$(myClass).css('background-color', hoverColor);
-			$(myClass).animate({fontSize: '105%'});	
+			$(myClass).animate({fontSize: '110%'});	
 			$("#original").animate({opacity: '0'});//to make the title fade out
 			$("#original").css('display', 'none');//to make the title fade out
-			$("#content").load(myPages[currentIndex]);			
+			$("#content").css('width', '0px');
+			/*$("#content").css('height', '0px');		
+			$("#content").animate({height: '5em'});				
+			$("#content").css('height', 'auto');*/
+			$("#content").animate({width:$("ul").css('width')});
+			$("#content").load(myPages[currentIndex]);						
 			//$(myPages[currentIndex]).css('display', 'block');			
 			//$(myPages[currentIndex]).animate({display: '100'})
 		}
