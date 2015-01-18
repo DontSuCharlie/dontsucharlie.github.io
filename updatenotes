@@ -1,0 +1,4 @@
+Update Notes: 1/10/15
+*Added max-width 100% to solid8bit.css 
+1/17/15
+*Removed "strikeThru" class because found <del> tag

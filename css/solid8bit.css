@@ -19,6 +19,7 @@ h1,h2,h3{font-family: CODE; text-align: center;}
 h1{font-size: 450%;}
 h2{font-size: 200%;}
 h3{font-size: 150%;}
+h4{font-family: CODE;font-size: 150%;}
 /*CLASSES FOR STYLING: .strikeThru;*/
 .strikeThru{text-decoration: line-through;}
 
@@ -55,9 +56,5 @@ nav ul li{/*the list content themselves*/
 	#contact{display: none;}
 /*animations*/
 /*Chrome/Opera/Safari*/
-@-webkit-keyframes changeColor{
-	to{background: #16C5E0;}
-}
-@keyframes changeColor{
-	to{background:#16C5E0;}
-}
+input{margin: 0 auto; height: 2em; width: 16em; display: block;}
+textarea{margin: 0 auto;height:8em; width: 16em; display: block;}
