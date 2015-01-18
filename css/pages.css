@@ -17,7 +17,7 @@ html{background-color: #000000; color: #FFFFFF; -webkit-animation: changeColor 5
 animation: changeColor 5s; }
 h1,h2,h3{font-family: CODE; text-align: center;}
 h1{font-size: 450%;}
-h2{font-size: 235%;}
+h2{font-size: 200%;}
 h3{font-size: 150%;}
 h4{font-family: CODE;font-size: 150%;}
 
@@ -41,33 +41,7 @@ nav ul li{/*the list content themselves*/
 	padding: 1em 2em;
 	cursor: pointer;
 }
-	.one:hover{background: #16C5E0;}
-	.two:hover{background: #5CD185;}
-	.three:hover{background: #FAB011;}
-	.four:hover{background: #F75993;}
-	.five:hover{background: #19E0FF;}
-	.six:hover{background: #CD59F7;}
-
-	#about{display:none;
-		background-color: rgba(240,240,240,1);
-	}
-	#courses{display:none;}
-	#projects{display:none;}
-	#contact{display: none;}
-
-/*Content Pages*/
-/*can't use commas because defaults to normal h2/h3 -.-*/
-#content h1{text-align: left}
-#content h2{text-align: left}
-#content h3{text-align: left}
-
-#content{
-	color: black;
-	background: -webkit-linear-gradient(rgba(255,255,255,0.9), rgba(235,235,235,1)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(rgba(255,255,255,0.9), rgba(235,235,235,1)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(rgba(255,255,255,0.9), rgba(235,235,235,1)); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(rgba(255,255,255,0.9), rgba(235,235,235,1)); /* Standard syntax */
-}
-
+/*animations*/
+/*Chrome/Opera/Safari*/
 input{margin: 0 auto; height: 2em; width: 16em; display: block;}
 textarea{margin: 0 auto;height:8em; width: 16em; display: block;}

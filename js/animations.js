@@ -1,7 +1,3 @@
-function loadPage(myPage)
-{
-}
-
 /*This is for changing the color of the background when clicking on the menu buttons*/
 var myButtons = [".one",".two",".three",".four"];//used for tracking other buttons
 var myPages = ["about.html","courses.html","projects.html","contact.html"]
