@@ -32,8 +32,9 @@ function changeColor(myClass)
 			$('html').animate({backgroundColor: 'rgb(0,0,0)'},{duration: 600});
 			$(myClass).css('background-color', originalColor);
 			$(myClass).animate({fontSize: '100%'});
+			document.getElementById("content").innerHTML = "";
 			$("#original").css('display', 'block');//to make the title fade out			
-			$("#original").animate({opacity: '1'});	//back to black, so the title fades back in		
+			$("#original").animate({opacity: '1'});	//back to black, so the title fades back in
 		}
 		else//otherwise change color to new buton
 		{
