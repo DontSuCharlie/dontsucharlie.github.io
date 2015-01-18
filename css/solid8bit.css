@@ -20,8 +20,6 @@ h1{font-size: 450%;}
 h2{font-size: 200%;}
 h3{font-size: 150%;}
 h4{font-family: CODE;font-size: 150%;}
-/*CLASSES FOR STYLING: .strikeThru;*/
-.strikeThru{text-decoration: line-through;}
 
 /*TEXT HIGHLIGHTING*/
 ::selection{color: #FFFFFF; background: #66CCFF}
@@ -50,7 +48,9 @@ nav ul li{/*the list content themselves*/
 	.five:hover{background: #19E0FF;}
 	.six:hover{background: #CD59F7;}
 
-	#about{display:none;}
+	#about{display:none;
+		background-color: rgba(240,240,240,1);
+	}
 	#courses{display:none;}
 	#projects{display:none;}
 	#contact{display: none;}
