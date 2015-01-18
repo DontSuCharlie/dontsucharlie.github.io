@@ -3,4 +3,16 @@ Update Notes: 1/10/15
 1/17/15
 *Removed "strikeThru" class because found <del> tag
 *Added change color
-*
+
+
+1/18/15
+*Added description of resume, image, and download link
+*Changed colors of headers to be gradient over time by header #
+*Adjusted padding (3 3 to 5 3)
+*Contact form is more organized now
+
+Things to do:
+1] Add <noscript>
+2] Fix jquery-ui css for firefox
+3] Make it look better
+4] 
