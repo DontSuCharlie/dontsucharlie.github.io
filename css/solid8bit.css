@@ -47,12 +47,12 @@ nav ul li{/*the list content themselves*/
 	padding: 1em 2em;
 	cursor: pointer;
 }
-	.one:hover{background: #16C5E0;}
-	.two:hover{background: #5CD185;}
-	.three:hover{background: #FAB011;}
-	.four:hover{background: #F75993;}
-	.five:hover{background: #19E0FF;}
-	.six:hover{background: #CD59F7;}
+	.one:hover{background: #16C5E0 !important;}
+	.two:hover{background: #5CD185 !important;}
+	.three:hover{background: #FAB011 !important;}
+	.four:hover{background: #F75993 !important;}
+	.five:hover{background: #19E0FF !important;}
+	.six:hover{background: #CD59F7 !important;}
 
 	#about, #courses, #projects, #contact{padding: 5em 3em;}
 	#contact{padding: 5em 5em;}

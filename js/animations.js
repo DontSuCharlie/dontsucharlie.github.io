@@ -1,6 +1,6 @@
 /*This is for changing the color of the background when clicking on the menu buttons*/
 var myButtons = [".one",".two",".three",".four"];//used for tracking other buttons
-var myPages = ["about.html","courses.html","projects.html","contact.html"]
+var myPages = ["about.html #about","courses.html","projects.html","contact.html"]
 function changeColor(myClass)
 {
 	var originalColor = $(myClass).css('background-color');//original color
@@ -47,7 +47,12 @@ function changeColor(myClass)
 			$("#content").animate({height: '5em'});				
 			$("#content").css('height', 'auto');*/
 			$("#content").animate({width:$("ul").css('width')});
-			$("#content").load(myPages[currentIndex]);						
+			$("#content").load(myPages[currentIndex]);
+				//add <a href> tags to normal links for people without js
+				//add <head> and menu to every single page.
+				//make load only load the division without the menu
+				//therefore you now have accessibility AND for people with js super fancy animations!
+				//add history API so people can link to specific loaded page
 			//$(myPages[currentIndex]).css('display', 'block');			
 			//$(myPages[currentIndex]).animate({display: '100'})
 		}
