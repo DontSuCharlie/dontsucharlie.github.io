@@ -12,10 +12,15 @@ h1{
 
 html{
 	font-family: "Open Sans";
+	color: white;
 }
 
 .class{
 	display: none;
+}
+
+.dijitTitlePaneTextNode{/*titles*/
+	font-family: Orbitron;
 }
 
 .module{
