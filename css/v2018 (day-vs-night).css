@@ -7,7 +7,6 @@ I like custom highlighting colors
 
 #purdue-logo
 {
-	padding: 70px;
 }
 
 html, body
@@ -15,6 +14,7 @@ html, body
 	height: 100%;
 	width: 100%;
 	margin: 0px;
+	font-size: 16px;
 }
 
 li
@@ -51,6 +51,12 @@ li
 	margin-right: 0px;
 }
 
+.experience-row
+{
+	padding-top: 3em;
+	height: 12em;
+}
+
 /*
 For styling the fontawesome icons
 */
@@ -62,6 +68,13 @@ For styling the fontawesome icons
 	padding: 5px;
 	text-align: center;
 	text-decoration: none;
+	color: white;
+}
+
+
+.fa-envelope:hover
+{
+	background: #ff4343;
 	color: white;
 }
 
