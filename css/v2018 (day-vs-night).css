@@ -1,0 +1,91 @@
+
+/*
+I like custom highlighting colors
+*/
+::selection{color: #FFFFFF; background: #66CCFF}
+::-moz-selection{color:#FFFFFF;background: #66CCFF}/*for mozilla firefox*/
+
+#purdue-logo
+{
+	padding: 70px;
+}
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+li
+{
+	margin: 0px;
+}
+
+.container-fluid
+{
+	padding: 0px;
+}
+
+.jumbotron
+{
+	color: white;
+	background-color: #5CD185;
+	padding: 100pt 35pt;
+	margin: 0px;
+	height: 70%;
+}
+
+.nav-tabs
+{
+	height: 10%;
+	padding: 0px;
+}
+
+/*why the fuck does row in container-fluid cause horizontal overflow?
+(by default .row has margin-left/margin-right of 15px)
+*/
+.row
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*
+For styling the fontawesome icons
+*/
+.fa
+{
+	border-radius: 5px;
+	font-size: 24px;
+	width: 35px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.fa-linkedin:hover
+{
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github:hover
+{
+	background: white;
+	color: black;
+}
+
+.footer-icons
+{
+	padding: 30pt 55pt;
+	background-color: #000;
+	height: 100%;
+}
+
+.footer-icons:before
+{
+	color: white;
+	content: "You can find me on other sites";
+}
