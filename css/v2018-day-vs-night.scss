@@ -1,13 +1,11 @@
-
 /*
-I like custom highlighting colors
+The theme I'm going for is day vs night, hot vs cold, 
+formal experience vs personal projects.
 */
+
+// I like custom highlighting colors
 ::selection{color: #FFFFFF; background: #66CCFF}
 ::-moz-selection{color:#FFFFFF;background: #66CCFF}/*for mozilla firefox*/
-
-#purdue-logo
-{
-}
 
 html, body
 {
@@ -20,6 +18,7 @@ html, body
 li
 {
 	margin: 0px;
+	padding: 0px;
 }
 
 .container-fluid
@@ -42,9 +41,8 @@ li
 	padding: 0px;
 }
 
-/*why the fuck does row in container-fluid cause horizontal overflow?
-(by default .row has margin-left/margin-right of 15px)
-*/
+// why the fuck does row in container-fluid cause horizontal overflow?
+// (by default .row has margin-left/margin-right of 15px)
 .row
 {
 	margin-left: 0px;
