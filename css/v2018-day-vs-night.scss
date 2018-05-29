@@ -7,6 +7,12 @@ formal experience vs personal projects.
 ::selection{color: #FFFFFF; background: #007fb2}
 ::-moz-selection{color:#FFFFFF;background: #007fb2}/*for mozilla firefox*/
 
+// if the dates don't fit on the line, move it to a new line
+small
+{
+	display: inline-block;
+}
+
 html, body
 {
 	height: 100%;
@@ -103,12 +109,7 @@ li
 {
 	margin-left: 0px;
 	margin-right: 0px;
-	padding: 5% 10%;
-}
-
-.experience-row
-{
-	padding-bottom: 3em;
+	padding: 3% 10%;
 }
 
 /*
@@ -159,4 +160,21 @@ footer
 {
 	color: white;
 	content: "You can find me on other sites";
+}
+
+// ellipse footer
+
+footer > .row
+{
+	padding: 0px;
+}
+
+.ellipse
+{
+	width: 100%;
+	height: 160px;
+	background: black;
+	border-radius: 50%;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 }

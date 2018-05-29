@@ -13,6 +13,10 @@ formal experience vs personal projects.
 }
 
 /*for mozilla firefox*/
+small {
+  display: inline-block;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -91,11 +95,7 @@ li {
 .row {
   margin-left: 0px;
   margin-right: 0px;
-  padding: 5% 10%;
-}
-
-.experience-row {
-  padding-bottom: 3em;
+  padding: 3% 10%;
 }
 
 /*
@@ -138,6 +138,19 @@ footer {
 .footer-icons:before {
   color: white;
   content: "You can find me on other sites";
+}
+
+footer > .row {
+  padding: 0px;
+}
+
+.ellipse {
+  width: 100%;
+  height: 160px;
+  background: black;
+  border-radius: 50%;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 /*# sourceMappingURL=v2018.css.map */
