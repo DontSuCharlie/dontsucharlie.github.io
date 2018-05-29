@@ -4,8 +4,8 @@ formal experience vs personal projects.
 */
 
 // I like custom highlighting colors
-::selection{color: #FFFFFF; background: #66CCFF}
-::-moz-selection{color:#FFFFFF;background: #66CCFF}/*for mozilla firefox*/
+::selection{color: #FFFFFF; background: #007fb2}
+::-moz-selection{color:#FFFFFF;background: #007fb2}/*for mozilla firefox*/
 
 html, body
 {
@@ -13,6 +13,14 @@ html, body
 	width: 100%;
 	margin: 0px;
 	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Source Serif Pro', serif;
+	padding-bottom: 0.2em;
 }
 
 li
@@ -40,6 +48,54 @@ li
 	height: 10%;
 	padding: 0px;
 }
+// for the formal experience one
+.nav > li > a:focus, .nav > li > a:hover
+{
+	color: black;
+	background-color: #ffe100;
+}
+
+
+// override the default Bootstrap hover color
+.nav > .projects > a:focus, .nav > .projects > a:hover
+{
+	color: white;
+	background-color: #007fb2;
+}
+
+.nav-tabs > li.projects.active > a, .nav-tabs > li.projects.active > a:focus, .nav-tabs > li.projects.active > a:hover
+{
+	color: white;
+	background-color: black;
+	border: 0px;
+}
+.projects
+{
+	color: white;
+	background-color: black;
+}
+
+.projects:hover
+{
+	background-color: #007fb2;
+}
+
+.projects > a:hover
+{
+	color: white;
+	background-color: #007fb2;
+}
+
+#projects
+{
+	color: white;
+	background-color: black;
+}
+
+#projects > .row > div > h2 > small
+{
+	color: #ddd;
+}
 
 // why the fuck does row in container-fluid cause horizontal overflow?
 // (by default .row has margin-left/margin-right of 15px)
@@ -47,12 +103,12 @@ li
 {
 	margin-left: 0px;
 	margin-right: 0px;
+	padding: 5% 10%;
 }
 
 .experience-row
 {
-	padding-top: 3em;
-	height: 12em;
+	padding-bottom: 3em;
 }
 
 /*
@@ -88,10 +144,14 @@ For styling the fontawesome icons
 	color: black;
 }
 
+footer
+{
+	background-color: #000;	
+}
+
 .footer-icons
 {
 	padding: 30pt 55pt;
-	background-color: #000;
 	height: 100%;
 }
 
