@@ -25,6 +25,7 @@ html, body
 
 h1, h2, h3, h4, h5, h6
 {
+	margin-top: 0px; // disable the margin top so the header lines up with the pictures
 	font-family: 'Source Serif Pro', serif;
 	padding-bottom: 0.2em;
 }
@@ -55,6 +56,7 @@ li
 	padding: 0px;
 }
 // for the formal experience one
+/*
 .nav > li > a:focus, .nav > li > a:hover
 {
 	color: black;
@@ -102,7 +104,7 @@ li
 {
 	color: #ddd;
 }
-
+*/
 // why the fuck does row in container-fluid cause horizontal overflow?
 // (by default .row has margin-left/margin-right of 15px)
 .row
@@ -147,7 +149,12 @@ For styling the fontawesome icons
 
 footer
 {
-	background-color: #000;	
+	background-color: #000;
+	padding-top: 140px !important;
+	border-radius: 50%;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+
 }
 
 .footer-icons
@@ -162,19 +169,7 @@ footer
 	content: "You can find me on other sites";
 }
 
-// ellipse footer
-
 footer > .row
 {
 	padding: 0px;
-}
-
-.ellipse
-{
-	width: 100%;
-	height: 160px;
-	background: black;
-	border-radius: 50%;
-	border-bottom-left-radius: 0px;
-	border-bottom-right-radius: 0px;
 }

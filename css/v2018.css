@@ -27,6 +27,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
   font-family: "Source Serif Pro", serif;
   padding-bottom: 0.2em;
 }
@@ -53,45 +54,55 @@ li {
   padding: 0px;
 }
 
-.nav > li > a:focus, .nav > li > a:hover {
-  color: black;
-  background-color: #ffe100;
+/*
+.nav > li > a:focus, .nav > li > a:hover
+{
+	color: black;
+	background-color: #ffe100;
 }
 
-.nav > .projects > a:focus, .nav > .projects > a:hover {
-  color: white;
-  background-color: #007fb2;
+
+// override the default Bootstrap hover color
+.nav > .projects > a:focus, .nav > .projects > a:hover
+{
+	color: white;
+	background-color: #007fb2;
 }
 
-.nav-tabs > li.projects.active > a, .nav-tabs > li.projects.active > a:focus, .nav-tabs > li.projects.active > a:hover {
-  color: white;
-  background-color: black;
-  border: 0px;
+.nav-tabs > li.projects.active > a, .nav-tabs > li.projects.active > a:focus, .nav-tabs > li.projects.active > a:hover
+{
+	color: white;
+	background-color: black;
+	border: 0px;
+}
+.projects
+{
+	color: white;
+	background-color: black;
 }
 
-.projects {
-  color: white;
-  background-color: black;
+.projects:hover
+{
+	background-color: #007fb2;
 }
 
-.projects:hover {
-  background-color: #007fb2;
+.projects > a:hover
+{
+	color: white;
+	background-color: #007fb2;
 }
 
-.projects > a:hover {
-  color: white;
-  background-color: #007fb2;
+#projects
+{
+	color: white;
+	background-color: black;
 }
 
-#projects {
-  color: white;
-  background-color: black;
+#projects > .row > div > h2 > small
+{
+	color: #ddd;
 }
-
-#projects > .row > div > h2 > small {
-  color: #ddd;
-}
-
+*/
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -128,6 +139,10 @@ For styling the fontawesome icons
 
 footer {
   background-color: #000;
+  padding-top: 140px !important;
+  border-radius: 50%;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .footer-icons {
@@ -142,15 +157,6 @@ footer {
 
 footer > .row {
   padding: 0px;
-}
-
-.ellipse {
-  width: 100%;
-  height: 160px;
-  background: black;
-  border-radius: 50%;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
 }
 
 /*# sourceMappingURL=v2018.css.map */
