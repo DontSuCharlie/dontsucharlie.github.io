@@ -1,8 +1,35 @@
+# Notes for Myself
 
+# How to Build
+
+To see the output
+```
+cd output
+python -m http.server
+```
+
+Open a browser and go to `localhost:8000`
+
+# The Directories
 # To Do
 
+## To Write
+1. Reflections on Purdue
+2. Reflections on JPL
+3. Reflections on Booz Allen Hamilton
+4. Tutorial on Dialogue Systems in Unreal
+// 5. Tutorial on Projective Texture Mapping
+6. Tutorial on Panorama Stitching
+7. Tutorial on Depth from Stereo
 
-## Main View (will finish this after finishing learning OpenGL)
+## To Implement
+1. Animations for the things to enter the screen
+2. Color animation for the icons
+3. The Main View (load low poly model of Earth into WebGL, etc.)
+4. (Maybe) Add Disqus comments
+5. Getting a static site generator working
+
+### Main View (will finish this after finishing learning OpenGL)
 1. Make low poly model of Earth.
 2. Load it into WebGL
 3. Add a directional light
@@ -17,23 +44,6 @@ Write about your interests and skills.
 Interests: ???
 Skills: C++, Unity, Unreal, JS, etc.
 
-## Tab Menu
-1. Have that fluid animation playing
-2. Change the 
-2. Make it so words appear/disappear (e.g. FORMAL EXPERIENCE and PERSONAL PROJECTS)
-3. 
-
-# Experience
-1. Make the row heights consistent
-2. Decide on a format (i.e. Title, Dates, Description)
-3. Stylize format
-4. Link them to the sites too
-5. Decrease the size of the logo's PNG's. We really want to minimize the size.
-6. convert to table
-
 # Projects
 1. Make the little clickable boxes (width = 1/2 or 1/3 of the screen)
 2. Include the Global Game Jam project
-
-# Formal Stuff
-1. 
